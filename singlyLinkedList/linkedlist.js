@@ -43,7 +43,7 @@ class LinkedList {
         return -1;
     }
 
-    addToBack(value) {
+    addToTail(value) {
         if (this.head === null) {
             this.head = new ListNode(value);
         } else {

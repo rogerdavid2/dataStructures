@@ -20,7 +20,7 @@ console.log(list.toString())
 console.log(list.indexOf(5))
 
 // Output: [2, 5, 9]
-list.addToBack(9)
-console.log("After adding to the back: " + list);
+list.addToTail(9)
+console.log("After adding to the tail: " + list);
 
 export default LinkedList;
