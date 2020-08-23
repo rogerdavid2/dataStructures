@@ -42,6 +42,18 @@ class LinkedList {
         }
         return -1;
     }
+
+    addToBack(value) {
+        if (this.head === null) {
+            this.head = new ListNode(value);
+        } else {
+            let current = this.head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            current.next = new ListNode(value);
+        }
+    }
 }
 
 export default LinkedList;
