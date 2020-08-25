@@ -54,6 +54,18 @@ class LinkedList {
             current.next = new ListNode(value);
         }
     }
+
+    removeFromTail(index) {
+        if (index === 0) {
+            this.head = this.head.next;
+        } else {
+            let current = this.head;
+            for (let i = 0; i < index - 1; i++) {
+                current = current.next;
+            }
+            current.next = current.next.next;
+        }
+    }
 }
 
 export default LinkedList;

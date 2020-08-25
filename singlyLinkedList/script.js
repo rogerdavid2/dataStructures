@@ -21,6 +21,11 @@ console.log(list.indexOf(5))
 
 // Output: [2, 5, 9]
 list.addToTail(9)
-console.log("After adding to the tail: " + list);
+console.log("After adding 9 to the tail: " + list.toString());
+
+// Output: [2, 5]
+list.removeFromTail(2)
+console.log("After removing 9 from the tail: " + list.toString())
+
 
 export default LinkedList;
