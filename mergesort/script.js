@@ -29,5 +29,5 @@ function merge(left, right) {
 }
 
 // Original: [14, 32, 67, 76, 23, 41, 58, 85]
-// Output:   [14, 23, 32, 41, 58 67, 76, 85]
+// Output:   [14, 23, 32, 41, 58, 67, 76, 85]
 console.log(mergeSort([14, 32, 67, 76, 23, 41, 58, 85]))
